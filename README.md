@@ -24,10 +24,10 @@ or /podcasts?p=1&l=10
 ```
 
 ## Requirements
-Backend:
-1. Create an api-gateway service (golang preffered) for podcasts microservice with basic rate limiting, heartbit and input validation functions
+Backend(golang preffered):
+1. Create an api-gateway service for podcasts microservice with basic rate limiting, heartbit and input validation functions
 
-UI:
+UI(next.js preffered):
 1. Create a controlled input field to fetch podcasts. By default you should request all podcasts on initial load.
 
 2. Add a debounce of 500ms to avoid fetching on every key press.
