@@ -25,7 +25,7 @@ or /podcasts?p=1&l=10
 
 ## Requirements
 Backend(golang preffered):
-1. Create an api-gateway service for podcasts microservice with basic rate limiting, heartbit and input validation functions
+1. Create an api-gateway service for podcasts microservice with basic error handling and input validation functions
 
 UI(next.js preffered):
 1. Create a controlled input field to fetch podcasts. By default you should request all podcasts on initial load.
@@ -44,4 +44,5 @@ UI(next.js preffered):
 1. Add some styling to the search results. Feel free to render as a list, cards, etc. Whatever would be a nice UI for the end user.
 2. Add some pagination. The api supports "page" and "limit" params.
 3. Use graphQL as a protocol between UI and API gateway
+4. Add basic rate limiting and heartbeat features to API gateway
    
