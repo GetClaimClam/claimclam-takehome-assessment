@@ -1,4 +1,4 @@
-# claimclam-takehome-assesment
+# claimclam-takehome-assessment
 Takehome assessment for a fullstack engineer position
 
 ## Summary
@@ -24,10 +24,10 @@ or /podcasts?p=1&l=10
 ```
 
 ## Requirements
-Backend(golang preffered):
+Backend(golang prefeerred):
 1. Create an api-gateway service for podcasts microservice with basic error handling and input validation functions
 
-UI(next.js preffered):
+UI(next.js preferred):
 1. Create a controlled input field to fetch podcasts. By default you should request all podcasts on initial load.
 
 2. Render a list of podcasts from the request. Feel free to use any data from the response that you find relevant or necessary to show (Don't worry about styling here yet).
