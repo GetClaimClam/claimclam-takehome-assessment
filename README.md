@@ -30,8 +30,6 @@ Backend(golang preffered):
 UI(next.js preffered):
 1. Create a controlled input field to fetch podcasts. By default you should request all podcasts on initial load.
 
-2. Add a debounce of 500ms to avoid fetching on every key press.
-
 2. Render a list of podcasts from the request. Feel free to use any data from the response that you find relevant or necessary to show (Don't worry about styling here yet).
 
 3. Handle UI states for:
