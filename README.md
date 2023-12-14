@@ -1,9 +1,9 @@
 # claimclam-takehome-assesment
-Takehome assesment for a fullstack engineer position
+Takehome assessment for a fullstack engineer position
 
 ## Summary
 
-Imaging that you have a podcasts microservice (please see API spec below). For this assessment you need to create a gateway service that will be utilizing podcast service and create a UI for it.
+Imagine that you have a podcasts microservice (please see API spec below). For this assessment you need to create a gateway service that will be utilizing podcast service and create a UI for it.
 
 
 some documentation:
@@ -32,9 +32,9 @@ UI(next.js preffered):
 
 2. Add a debounce of 500ms to avoid fetching on every key press.
 
-3. Render a list of podcasts from the request. Feel free to use any data from the response that you find relevant or necessary to show (Don't worry about styling here yet).
+2. Render a list of podcasts from the request. Feel free to use any data from the response that you find relevant or necessary to show (Don't worry about styling here yet).
 
-4. Handle UI states for:
+3. Handle UI states for:
 - When the podcasts are being fetched.
 - When the response returns some podasts.
 - When the response returns no podcasts that match the search value.
@@ -43,6 +43,7 @@ UI(next.js preffered):
 
 1. Add some styling to the search results. Feel free to render as a list, cards, etc. Whatever would be a nice UI for the end user.
 2. Add some pagination. The api supports "page" and "limit" params.
-3. Use graphQL as a protocol between UI and API gateway
-4. Add basic rate limiting and heartbeat features to API gateway
+3. Add a debounce of 500ms to avoid fetching on every key press.
+4. Use graphQL as a protocol between UI and API gateway
+5. Add basic rate limiting and heartbeat features to API gateway
    
