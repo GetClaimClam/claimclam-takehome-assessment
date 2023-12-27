@@ -19,12 +19,14 @@ Add query params to GET request:
 PAGINATION
 Add query params to GET requests:
 
-/podcats?page=1&limit=10
+/podcasts?page=1&limit=10
 or /podcasts?p=1&l=10
 ```
 
 ## Requirements
-Backend(golang prefeerred):
+Containerize/setup application for easy local development and testing
+
+Backend(golang preferred):
 1. Create an api-gateway service for podcasts microservice with basic error handling and input validation functions
 
 UI(next.js preferred):
